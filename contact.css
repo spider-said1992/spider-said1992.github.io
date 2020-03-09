@@ -1,0 +1,104 @@
+@import url(http://font.googleapis.com/css?family=montserrat:400,700);
+
+body {
+    margin: 0;
+    color: #555;
+    font-family: 'montserrat', sons-serif;
+}
+
+#header {
+    background-color: #1abc9c;
+    height: 150px;
+    line-height: 150px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#header a:hover {
+    color: #222;
+}
+
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link-btn {
+    background-color: blueviolet;
+    border: 5px solid pink;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    margin: 2rem 4rem;
+    min-width: 7rem;
+    width: 7rem;
+}
+
+.link-btn:hover,
+.link-btn:active {
+    background-color: greenyellow;
+}
+
+.link:hover,
+.link:active {
+    color: hotpink;
+}
+
+#contacts {
+    background-color: #2f2f2f;
+    padding: 6rem 0;
+}
+
+
+.contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: blueviolet;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (min-width: 400px) {
+    .link-btn {
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        height: 7rem;
+    }
+
+    a,
+    a:visited {
+        outline: none;
+        color: yellow;
+    }
